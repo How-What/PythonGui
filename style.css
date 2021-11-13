@@ -3,12 +3,13 @@ QWidget {
 }
 
 #logo{
+    margin-bottom: 20px;
 }
 
 #btn{
     border: 2px solid red;
-    border-radius: 20px;
-    font-size: 40px;
+    border-radius: 13px;
+    font-size: 25px;
     color: white;
     background-color: black;
     padding-bottom: 5px;
