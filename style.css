@@ -1,16 +1,32 @@
 QWidget {
-    background-color: gray;
+    background-color: #09B0B0;
 }
 
 #logo{
     margin-bottom: 20px;
 }
 
-#btn{
-    border: 2px solid red;
+QPushButton{
+    border: 1px solid gray;
     border-radius: 13px;
     font-size: 25px;
     color: white;
     background-color: black;
     padding-bottom: 5px;
+}
+
+QLabel{
+    font-size: 20px;
+}
+
+QLineEdit{
+    height: 25px;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 13px;
+    padding-left: 10px;
+}
+
+QPushButton, QLineEdit{
+    margin-bottom: 10px;
 }
